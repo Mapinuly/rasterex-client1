@@ -13,7 +13,7 @@ import { AnnotationToolsService } from './components/annotation-tools/annotation
 })
 export class AppComponent implements AfterViewInit {
   guiConfig$ = this.rxCoreService.guiConfig$;
-  title: string = 'rasterex-viewer';
+  title: string = 'kos-krebs';
   numOpenFiles$ = this.rxCoreService.numOpenedFiles$;
   annotation: any;
   rectangle: any;

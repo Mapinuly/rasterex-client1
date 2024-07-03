@@ -1,4 +1,4 @@
-# Rasterex Viewer
+# kos-krebs
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
 
@@ -23,7 +23,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 # Configure Viewer UI
-The viewever makes use of the params in the configuration files to parameterize the UI and some fucntions of the viewspace. The `defaultconfig.xml` serves as the template for dynamic configuration source. It is located in the `bin` folder that is the subfolder of the installation folder (e.g. `C:\Rasterex\RxView360Server\bin\defaultconfig.xml1`).
+The viewever makes use of the params in the configuration files to parameterize the UI and some fucntions of the viewspace. The `defaultconfig.xml` serves as the template for dynamic configuration source. It is located in the `bin` folder that is the subfolder of the installation folder (e.g. `C:\kos-krebs\RxView360Server\bin\defaultconfig.xml1`).
 
 The template configuration structure can be seen below.
 <details>
@@ -37,9 +37,6 @@ The template configuration structure can be seen below.
     <DisplayName>Demo User</DisplayName>
     <MarkupLayer>5</MarkupLayer>
     <MarkupColor>#a52a2a</MarkupColor>
-    <!--<XmlUrl>http://viewserver.rasterex.com/RxBinweb/RxCSISAPI.dll?WebClientPublish</XmlUrl>-->
-    <!--<XmlUrlRel>http://viewserver.rasterex.com/RxBinweb</XmlUrlRel>-->
-    <!--<MarkupSaveUrl>http://viewserver.rasterex.com/RxBinweb/RxCSISAPI.dll?WebClientSaveMarkup</MarkupSaveUrl>-->
     <PrintPageURL>printcanvas.htm</PrintPageURL>
     <CanChangeLayer>True</CanChangeLayer>
 	<EnableMarkupEdit>True</EnableMarkupEdit>
